@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* Tailwind v4 theme tokens */
+@theme {
+  --color-brand-red: #ff0303;
+  --color-brand-black: #000000;
+  --color-brand-gray: #404040;
+}
+
+/* Site base */
+:root {
+  --background: var(--color-brand-black);
+  --foreground: #ffffff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), ui-sans-serif, system-ui, -apple-system, Segoe UI,
+    Roboto, Helvetica, Arial;
+}
+
+/* Font utility hooks (from layout.tsx variables) */
+.font-body {
+  font-family: var(--font-body), ui-sans-serif, system-ui;
+}
+.font-heading {
+  font-family: var(--font-heading), ui-sans-serif, system-ui;
+  letter-spacing: -0.02em;
+}
+
+
+.ticker {
+  animation: ticker 42s linear infinite;
+  will-change: transform;
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker {
+    animation: none;
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .topo {
+    animation: none;
+  }
+}

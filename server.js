@@ -1,11 +1,13 @@
-const { execSync } = require("child_process");
+const { createServer } = require("http");
+const next = require("next");
 
-try {
-  execSync("npm run build", { stdio: "inherit" });
-} catch (e) {}
+const port = parseInt(process.env.PORT || "3000", 10);
+const dev = false;
+const app = next({ dev });
+const handle = app.getRequestHandler();
 
-require("child_process").spawn(
-  "node",
-  ["node_modules/next/dist/bin/next", "start", "-p", process.env.PORT || "3000"],
-  { stdio: "inherit" }
-);
+app.prepare().then(() => {
+  createServer((req, res) => handle(req, res)).listen(port, () => {
+    console.log(`> Ready on port ${port}`);
+  });
+});

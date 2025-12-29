@@ -11,7 +11,7 @@ const values = [
     desc: "Bold thinking and unique concepts that don’t look generic or templated.",
   },
   {
-    title: "Timelessness",
+    title: "Growth",
     desc: "Work designed to stay relevant and iconic for years, not a season.",
   },
   {
@@ -21,6 +21,10 @@ const values = [
   {
     title: "Impact",
     desc: "Identities that leave a mark and shape how brands are remembered.",
+  },
+  {
+    title: "Trust",
+    desc: "Guaranteed friendship after finishing work, future projects together almost everytime.",
   },
 ];
 
@@ -41,12 +45,11 @@ export default function AboutPage() {
           </p>
 
           <h1 className="mt-5 font-heading text-6xl sm:text-7xl leading-[0.92] tracking-tight">
-            Crafted to last.
-            <span className="block text-white/75">Built to stand out.</span>
+            Niche digital solutions.
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-white/70">
-            Alexsto is a branding studio that blends precision and creativity —
+            Alexsto is a brand that blends precision and creativity —
             building identities that are impossible to ignore.
           </p>
 
@@ -66,16 +69,6 @@ export default function AboutPage() {
           </div>
 
           {/* ✅ FIX: index is defined here */}
-          <div className="mx-auto mt-10 flex flex-wrap items-center justify-center gap-2">
-            {keywords.map((k, index) => (
-              <span
-                key={`${k}-${index}`}
-                className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/70"
-              >
-                {k}
-              </span>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -87,7 +80,7 @@ export default function AboutPage() {
               Bio
             </p>
             <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.92] tracking-tight">
-              Niche Digital Solutions.
+              Alexsto Digital
             </h2>
             <p className="mt-6 text-base sm:text-lg text-white/70">
               With over a decade of experience, Alexsto transforms businesses
@@ -136,7 +129,7 @@ export default function AboutPage() {
               Mission
             </p>
             <h3 className="mt-4 font-heading text-4xl sm:text-5xl leading-[0.95] tracking-tight">
-              Bold, timeless identities — engineered with precision.
+              Bold, timeless identities — designed with precision.
             </h3>
             <p className="mt-6 text-white/70 text-base sm:text-lg">
               To craft bold and timeless brand identities through precision and
@@ -149,11 +142,11 @@ export default function AboutPage() {
               Vision
             </p>
             <h3 className="mt-4 font-heading text-4xl sm:text-5xl leading-[0.95] tracking-tight">
-              Boutique quality — rare, impactful, crafted to last.
+              Boutique quality — rare, impactful, designed to last.
             </h3>
             <p className="mt-6 text-white/70 text-base sm:text-lg">
-              To be recognized internationally as a boutique design studio that
-              delivers niche digital solutions — rare, impactful, and crafted to
+              To be recognized internationally as a boutique design brand that
+              delivers niche digital solutions — rare, impactful, and designed to
               last.
             </p>
           </div>
@@ -168,7 +161,7 @@ export default function AboutPage() {
               Values
             </p>
             <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.92] tracking-tight">
-              The Alexsto standard
+              What are my values?
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-white/70 text-base sm:text-lg">
               A clear set of principles that guide every decision — from concept

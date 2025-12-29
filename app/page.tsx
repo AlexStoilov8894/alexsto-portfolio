@@ -23,6 +23,12 @@ type Testimonial = {
 
 const featuredProjects: FeaturedProject[] = [
   {
+    slug: "dzdetailing",
+    title: "DZ Detailing",
+    subtitle: "Brand Identity",
+    mediaUrl: "/projects/hero/dzdetailing.png",
+  },
+  {
     slug: "zdravec-protein",
     title: "Zdravec High Protein",
     subtitle: "Packaging + brand system",
@@ -52,44 +58,44 @@ const featuredProjects: FeaturedProject[] = [
 
 const testimonials: Testimonial[] = [
   {
-    name: "Mila Petrova",
-    role: "Brand Manager",
-    company: "Zdravec Foods",
+    name: "Sylvia Gavrailova",
+    role: "Marketing Manager",
+    company: "Gavrailov Studio",
     quote:
-      "The new packaging system instantly looked premium on shelf. Clear hierarchy, bold presence, and consistent details across formats.",
+      "The new brand identity instantly looked premium on shelf. Clear hierarchy, bold presence, and consistent details across formats.",
   },
   {
-    name: "Daniel Ivanov",
+    name: "Galina Spiridonova",
     role: "Marketing Lead",
-    company: "Nova Media",
+    company: "Bel Groups",
     quote:
       "Fast, strategic, and extremely polished. The campaign assets were ready for every channel without losing quality or cohesion.",
   },
   {
-    name: "Sofia Markova",
+    name: "Gal Nikolova",
     role: "Founder",
-    company: "Studio Arc",
+    company: "Give it Socks",
     quote:
-      "Alexsto translated a messy concept into a sharp identity. The final system was modern, flexible, and easy to deploy across touchpoints.",
+      "One of the greatest designers I have worked with in the last 6 years! I know good design when I see one. Bravo, Alex! ",
   },
   {
-    name: "Georgi Stoyanov",
+    name: "Harry Solanki",
     role: "Product Owner",
-    company: "RetailCo",
+    company: "ArtBroods",
     quote:
-      "The redesign improved clarity and conversion. The UI feels clean, confident, and built for real users—not just a dribbble shot.",
+      "Alex, I would personally like to thank you for delivering such quality logo's for my startup. You've made great commitment to complete project on time as well. Thank you from @artbroods team.",
   },
   {
-    name: "Elena Dimitrova",
-    role: "Creative Producer",
-    company: "AdHouse",
+    name: "Tsvetelina Ilcheva",
+    role: "Owner",
+    company: "LaFlor Hair Salon",
     quote:
-      "Excellent sense of pacing and motion. The visuals were bold and broadcast-ready, and the delivery was organized and dependable.",
+      "With flair and attention to detail! Thank you for your professionalism and creativity!",
   },
   {
-    name: "Nikolai Petkov",
-    role: "Head of Growth",
-    company: "Fintech Y",
+    name: "Alexander Danchev",
+    role: "CEO",
+    company: "Shondy's Garage",
     quote:
       "Strong creative direction with measurable impact. We shipped faster, looked sharper, and the system scaled across multiple products.",
   },
@@ -159,7 +165,7 @@ export default function Page() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-white/70"
           >
-           Alexsto is a branding studio that blends precision and creativity. 
+           Alexsto is a brand that blends precision and creativity. 
            Inspired by the power of design, Alexsto builds identities that are crafted 
            to last and impossible to ignore. With over a decade of experience, Alexsto 
            transforms businesses into bold, unforgettable brands.

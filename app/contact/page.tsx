@@ -29,7 +29,7 @@ export default function ContactPage() {
               Explore projects
             </Link>
             <a
-              href="mailto:hello@alexsto.com"
+              href="mailto:hello@alexsto.eu"
               className="rounded-full bg-brand-red px-6 py-3 text-sm font-medium text-white hover:opacity-90 transition"
             >
               Email me
@@ -42,7 +42,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="px-6 pb-20 sm:pb-24">
+      <section className="px-6 pb-20 mt-20 sm:pb-24">
         <div className="mx-auto max-w-6xl grid gap-10 lg:grid-cols-12 items-start">
           <div className="lg:col-span-5 lg:col-start-2 text-center lg:text-left">
             <p className="w-fit mx-auto lg:mx-0 text-xs uppercase tracking-[0.25em] text-white/50">
@@ -57,7 +57,7 @@ export default function ContactPage() {
             </p>
 
             <div className="mt-10 grid gap-3">
-              <InfoCard label="Email" value="hello@alexsto.com" />
+              <InfoCard label="Email" value="hello@alexsto.eu" />
               <InfoCard label="Location" value="EU / Remote worldwide" />
               <InfoCard label="Specialties" value="Branding · Packaging · Digital" />
             </div>
@@ -69,7 +69,7 @@ export default function ContactPage() {
             <div className="mt-6 text-center text-sm text-white/60">
               Prefer email?{" "}
               <a className="text-white hover:text-brand-red transition" href="mailto:hello@alexsto.com">
-                hello@alexsto.com
+                hello@alexsto.eu
               </a>
             </div>
           </div>

@@ -16,12 +16,12 @@ export const projects: Project[] = [
   {
     slug: "zdravec-protein",
     title: "Zdravec High Protein",
-    subtitle: "Packaging + brand system",
+    subtitle: "Packaging + Marketing Campaign",
     description:
-      "A bold packaging system built for shelf impact with a consistent brand framework across SKUs and formats.",
-    year: "2025",
+      "Modern, performance-driven packaging system that blends Zdravec’s heritage with a bold, fitness-inspired visual language.",
+    year: "2024",
     role: "Graphic Designer",
-    services: ["Brand Identity", "Packaging", "Art Direction"],
+    services: ["Packaging", "Art Direction", "Marketing Campaign"],
     cover: "/projects/zdravec-protein/cover.png",
     gallery: [
       "/projects/zdravec-protein/01.png",
@@ -40,9 +40,9 @@ export const projects: Project[] = [
   {
     slug: "bulverde-brewing",
     title: " Bulverde Brewing Co",
-    subtitle: "Logo + Brand Identity",
+    subtitle: "Brand Identity",
     description:
-      "A motion-first campaign system adapted for broadcast and social, designed for pace, clarity, and consistency across formats.",
+      "Bold brand identity blending craft brewing culture with authentic Texas character. Inspired by local heritage, designed to stand out across packaging, merchandise, and brand touchpoints.",
     year: "2023",
     role: "Graphic Designer",
     services: ["Brand Identity", "Packaging", "Art Direction"],
@@ -65,15 +65,45 @@ export const projects: Project[] = [
       "/projects/bulverde/14.png",
     ],
   },
+  {
+    slug: "gavrailovstudio",
+    title: "Gavrailov Studio",
+    subtitle: "rand Identity",
+    description:
+      "As the company expanded its portfolio and services, strong visual identity designed to position Gavrailov Studio as a confident and versatile marketing studio.",
+    year: "2023",
+    role: "Graphic Designer",
+    services: ["Brand Identity", "Packaging", "Art Direction"],
+    cover: "/projects/gavrailovstudio/cover.png",
+    gallery: [
+      "/projects/gavrailovstudio/01.gif",
+      "/projects/gavrailovstudio/02.png",
+      "/projects/gavrailovstudio/03.png",
+      "/projects/gavrailovstudio/04.png",
+      "/projects/gavrailovstudio/05.png",
+      "/projects/gavrailovstudio/06.png",
+      "/projects/gavrailovstudio/07.png",
+      "/projects/gavrailovstudio/08.png",
+      "/projects/gavrailovstudio/09.gif",
+      "/projects/gavrailovstudio/10.gif",
+      "/projects/gavrailovstudio/11.png",
+      "/projects/gavrailovstudio/12.png",
+      "/projects/gavrailovstudio/13.png",
+      "/projects/gavrailovstudio/14.png",
+      "/projects/gavrailovstudio/15.png",
+      "/projects/gavrailovstudio/16.png",
+      "/projects/gavrailovstudio/17.png",
+    ],
+  },
     {
     slug: "dzdetailing",
     title: "DZ Detailing",
-    subtitle: "Logo + Brand Identity",
+    subtitle: "Brand Identity",
     description:
-      "A motion-first campaign system adapted for broadcast and social, designed for pace, clarity, and consistency across formats.",
+      "Bold and modern brand identity for an automotive detailing studio, built around precision, performance, and a strong visual presence.",
     year: "2024",
     role: "Graphic Designer",
-    services: ["Brand Identity", "Packaging", "Art Direction"],
+    services: ["Brand Identity", "Art Direction"],
     cover: "/projects/dzdetailing/cover.png",
     gallery: [
       "/projects/dzdetailing/01.gif",
@@ -96,9 +126,9 @@ export const projects: Project[] = [
   {
     slug: "quantum-freight",
     title: "Quantum Freight",
-    subtitle: "Logo & Brand Identity",
+    subtitle: "Brand Identity",
     description:
-      "A conversion-focused UI system with cleaner navigation, improved hierarchy, and a scalable component approach.",
+      "Clean, modern brand identity designed to communicate speed, reliability, and precision to position Quantum Freight as a forward-thinking logistics partner.",
     year: "2023",
     role: "Designer",
     services: ["Brand Identity", "Art Direction"],
@@ -124,9 +154,9 @@ export const projects: Project[] = [
   {
     slug: "chervenatastena",
     title: "Chervenata Stena",
-    subtitle: "Logo + Brand Identity",
+    subtitle: "Brand Identity",
     description:
-      "A compact identity system with a modern logotype, typography rules, and practical guidelines for real-world use.",
+      "Visual identity inspired by nature, biodiversity, and cultural heritage, designed to represent Chervenata Stena as a protected natural destination with strong local character.",
     year: "2025",
     role: "Designer",
     services: ["Brand Identity", "Art Direction"],

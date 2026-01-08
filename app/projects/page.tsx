@@ -16,7 +16,7 @@ export default function ProjectsPage() {
           A curated set of brand and digital projects. Click any project to view the full case.
         </p>
 
-        <div className="mt-12 grid gap-4 md:grid-cols-2">
+        <div className="mt-12 grid gap-4 md:grid-cols-3">
           {projects.map((p) => (
             <Link
               key={p.slug}
@@ -58,7 +58,7 @@ export default function ProjectsPage() {
 
         <div className="mt-14 flex justify-center">
           <Link
-            href="/#contact"
+            href="/contact"
             className="rounded-full bg-brand-red px-8 py-4 text-sm font-medium text-white hover:bg-brand-red/90 transition"
           >
             Start a project

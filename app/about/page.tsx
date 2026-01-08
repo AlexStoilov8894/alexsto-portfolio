@@ -4,27 +4,27 @@ import Link from "next/link";
 const values = [
   {
     title: "Precision",
-    desc: "Every detail matters — typography, hierarchy, spacing, and finish are treated like craftsmanship.",
+    desc: "Details matter. Typography, spacing, hierarchy, and finish are treated as craft.",
   },
   {
     title: "Creativity",
-    desc: "Bold thinking and unique concepts that don’t look generic or templated.",
+    desc: "Every concept starts from a blank page — no templates, no shortcuts.",
   },
   {
     title: "Growth",
-    desc: "Work designed to stay relevant and iconic for years, not a season.",
+    desc: "Design should remain relevant and effective over time, not just follow trends.",
   },
   {
     title: "Collaboration",
-    desc: "A shared vision — clients are partners through every step.",
+    desc: "The best work comes from trust and shared vision — clients are partners.",
   },
   {
     title: "Impact",
-    desc: "Identities that leave a mark and shape how brands are remembered.",
+    desc: "Brands should leave a mark and be remembered, not just seen.",
   },
   {
     title: "Trust",
-    desc: "Guaranteed friendship after finishing work, future projects together almost everytime.",
+    desc: "Long-term relationships matter more than one-off projects.",
   },
 ];
 
@@ -45,12 +45,12 @@ export default function AboutPage() {
           </p>
 
           <h1 className="mt-5 font-heading text-6xl sm:text-7xl leading-[0.92] tracking-tight">
-            Niche digital solutions.
+            THE MAN BEHIND THE BRAND
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-white/70">
-            Alexsto is a brand that blends precision and creativity —
-            building identities that are impossible to ignore.
+            I’m Alex Stoilov - graphic designer and the person behind Alexsto.
+I help brands define who they are and how they’re remembered, through focused strategy and carefully crafted visual systems.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
@@ -73,49 +73,50 @@ export default function AboutPage() {
       </section>
 
       {/* BIO + POSITIONING */}
-      <section className="px-6 py-18 sm:py-22">
+      <section className="px-6 py-18 sm:py-22 border-y border-white/10">
         <div className="mx-auto max-w-6xl grid gap-10 lg:grid-cols-12 items-start">
           <div className="lg:col-span-5 lg:col-start-2">
             <p className="w-fit text-xs uppercase tracking-[0.25em] text-white/50">
-              Bio
+              Alex Stoilov
             </p>
             <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.92] tracking-tight">
               Alexsto Digital
             </h2>
-            <p className="mt-6 text-base sm:text-lg text-white/70">
-              With over a decade of experience, Alexsto transforms businesses
-              into bold, unforgettable brands — crafted with precision and built
-              for real-world impact.
-            </p>
+            <p className="mt-6 text-white/70 text-base sm:text-lg">
+              My professional background spans both in-house and freelancer work. Over the years I've worked on variety of projects ranging from brand identities and product packaging to large-scale advertising campaigns.
 
-            <div className="mt-8 grid gap-3">
-              <StatCard title="Focus" value="Brand Identity · Packaging · Digital" />
-              <StatCard
-                title="Deliverables"
-                value="Identity Systems · Guidelines · Web · Campaigns"
-              />
-              <StatCard title="Tagline" value="Niche Digital Solutions" />
-            </div>
+              I don't believe in the phrase "Don't judge a book by its cover." Branding is the invisible communication between a business and a customer, and I believe that I and my fellow designers are responsible for creating it in the most effective way possible.
+
+            </p>
           </div>
 
           <div className="lg:col-span-5">
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-8">
-              <p className="text-xs uppercase tracking-[0.25em] text-white/50">
-                Brand voice
-              </p>
-              <p className="mt-4 text-base sm:text-lg text-white/80 leading-relaxed">
-                Bold but refined. Minimal but powerful. Crafted, not generic.
-                Confident, not arrogant.
-              </p>
-
-              <div className="mt-8 h-px w-full bg-white/10" />
-
-              <div className="mt-7 grid gap-3 sm:grid-cols-2">
-                <MiniPill>Crafted</MiniPill>
-                <MiniPill>Precision</MiniPill>
-                <MiniPill>Timeless</MiniPill>
-                <MiniPill>Impact</MiniPill>
-              </div>
+             <p className="w-fit text-xs uppercase tracking-[0.25em] text-white/50">
+              My services
+            </p>
+            < div className="mt-4">
+            <ol className="grid gap-3">
+              <ProcessStep
+                n="01"
+                title="Brand Identities"
+                desc="Positioning, references, constraints, objectives."
+              />
+              <ProcessStep
+                n="02"
+                title="Packaging"
+                desc="Concept routes, visual language, and tone."
+              />
+              <ProcessStep
+                n="03"
+                title="Social Media Visuals"
+                desc="Logo, typography, color, assets, and rules."
+              />
+              <ProcessStep
+                n="04"
+                title="Ui & Web Design"
+                desc="Packaging, web, social, motion, and rollout."
+              />
+            </ol>
             </div>
           </div>
         </div>
@@ -129,11 +130,10 @@ export default function AboutPage() {
               Mission
             </p>
             <h3 className="mt-4 font-heading text-4xl sm:text-5xl leading-[0.95] tracking-tight">
-              Bold, timeless identities — designed with precision.
+              Designed to mean something.
             </h3>
             <p className="mt-6 text-white/70 text-base sm:text-lg">
-              To craft bold and timeless brand identities through precision and
-              creativity, helping businesses transform into unforgettable brands.
+              My mission is to help brands communicate clearly and confidently through strong visual systems.
             </p>
           </div>
 
@@ -142,12 +142,10 @@ export default function AboutPage() {
               Vision
             </p>
             <h3 className="mt-4 font-heading text-4xl sm:text-5xl leading-[0.95] tracking-tight">
-              Boutique quality — rare, impactful, designed to last.
+              Modern work. Lasting Value.
             </h3>
             <p className="mt-6 text-white/70 text-base sm:text-lg">
-              To be recognized internationally as a boutique design brand that
-              delivers niche digital solutions — rare, impactful, and designed to
-              last.
+              I aim to grow Alexsto as a innovative design brand, known for delivering focused, high-quality digital solutions.
             </p>
           </div>
         </div>
@@ -157,16 +155,11 @@ export default function AboutPage() {
       <section className="px-6 py-18 sm:py-22">
         <div className="mx-auto max-w-6xl">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="mx-auto w-fit text-xs uppercase tracking-[0.25em] text-white/50">
-              Values
-            </p>
+
             <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.92] tracking-tight">
-              What are my values?
+              My values
             </h2>
-            <p className="mx-auto mt-6 max-w-2xl text-white/70 text-base sm:text-lg">
-              A clear set of principles that guide every decision — from concept
-              to final system.
-            </p>
+          
           </div>
 
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -185,11 +178,10 @@ export default function AboutPage() {
               Process
             </p>
             <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.92] tracking-tight">
-              Strategy → Concepts → System
+               Brief → Design → Delivery
             </h2>
             <p className="mt-6 text-white/70 text-base sm:text-lg">
-              The goal isn’t “a logo”. The goal is a complete identity system —
-              built for consistency, clarity, and real-world use.
+              Every project starts with a clear brief. By understanding the goals, audience, and constraints, I’m able to design with purpose and direction. The process moves from concept to execution with clarity at every step, resulting in a cohesive brand system that’s ready to be used in real-world applications.
             </p>
           </div>
 
@@ -197,23 +189,23 @@ export default function AboutPage() {
             <ol className="grid gap-3">
               <ProcessStep
                 n="01"
-                title="Discovery"
-                desc="Positioning, references, constraints, objectives."
+                title="Brief"
+                desc="Defining goals, audience, scope, and constraints."
               />
               <ProcessStep
                 n="02"
                 title="Direction"
-                desc="Concept routes, visual language, and tone."
+                desc="Exploring concepts and visual directions."
               />
               <ProcessStep
                 n="03"
                 title="Design System"
-                desc="Logo, typography, color, assets, and rules."
+                desc="Building the core identity: logo, typography, color, layout rules, and key assets."
               />
               <ProcessStep
                 n="04"
                 title="Applications"
-                desc="Packaging, web, social, motion, and rollout."
+                desc="Applying the system to real-world use cases."
               />
             </ol>
           </div>
@@ -230,11 +222,10 @@ export default function AboutPage() {
                 Ready?
               </p>
               <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.92] tracking-tight">
-                Let’s build something unforgettable.
+                Let’s work together.
               </h2>
               <p className="mx-auto mt-6 max-w-2xl text-white/70 text-base sm:text-lg">
-                If you want branding that feels premium, consistent, and built to
-                last — send a message and I’ll reply with next steps.
+                Send a short message outlining your project goals and timeline. I’ll review the details and respond with a clear plan and next steps.
               </p>
 
               <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
@@ -278,7 +269,7 @@ function ValueCard({ title, desc }: { title: string; desc: string }) {
   return (
     <div className="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-7">
       <p className="text-xs uppercase tracking-[0.25em] text-white/50">
-        Core value
+        Value
       </p>
       <h3 className="mt-3 font-heading text-3xl leading-[0.95]">{title}</h3>
       <p className="mt-4 text-sm sm:text-base text-white/70 leading-relaxed">

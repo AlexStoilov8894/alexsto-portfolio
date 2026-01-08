@@ -31,25 +31,25 @@ const featuredProjects: FeaturedProject[] = [
   {
     slug: "zdravec-protein",
     title: "Zdravec High Protein",
-    subtitle: "Packaging + brand system",
+    subtitle: "Packaging + Marketing Campaign",
     mediaUrl: "/projects/hero/zdravec-hero.png",
   },
   {
     slug: "bulverde-brewing",
     title: "Bulverde Brewing Co.",
-    subtitle: "Logo + Brand Identity",
+    subtitle: "Brand Identity",
     mediaUrl: "/projects/hero/bulverde-hero.png",
   },
   {
     slug: "quantum-freight",
     title: "Quantim Freight",
-    subtitle: "Logo & Brand Identity",
+    subtitle: "Brand Identity",
     mediaUrl: "/projects/hero/quantumfreight-hero.png",
   },
   {
     slug: "chervenatastena",
     title: "Chervenata Stena",
-    subtitle: "Logo & Brand Identity",
+    subtitle: "Brand Identity",
     mediaUrl: "/projects/hero/chervenatastena-hero.png",
   },
 ];
@@ -62,14 +62,14 @@ const testimonials: Testimonial[] = [
     role: "Marketing Manager",
     company: "Gavrailov Studio",
     quote:
-      "The new brand identity instantly looked premium on shelf. Clear hierarchy, bold presence, and consistent details across formats.",
+      "I have been working with Alex for years on various projects. I have always enjoyed his professional attitude, attention to detail, and ability to find the best possible solution. Working with him is smooth and easy, and things happen intuitively—just as they should.",
   },
   {
     name: "Galina Spiridonova",
     role: "Marketing Lead",
     company: "Bel Groups",
     quote:
-      "Fast, strategic, and extremely polished. The campaign assets were ready for every channel without losing quality or cohesion.",
+      "Working with Alexander has been both easy and highly effective. He understands the brands we manage and consistently translates marketing goals into clear, well-crafted visual solutions. Whether it’s packaging, print materials, or campaign visuals, we can always rely on his professionalism, attention to detail, and ability to meet deadlines.",
   },
   {
     name: "Gal Nikolova",
@@ -97,7 +97,7 @@ const testimonials: Testimonial[] = [
     role: "CEO",
     company: "Shondy's Garage",
     quote:
-      "Strong creative direction with measurable impact. We shipped faster, looked sharper, and the system scaled across multiple products.",
+      "Alexander perfectly captured the energy and spirit of the M Weekend event. From the branding to all visual materials, everything was executed at a very high level. His work helped make the event visually strong, recognizable, and memorable for both participants and the audience.",
   },
 ];
 
@@ -165,10 +165,9 @@ export default function Page() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-white/70"
           >
-           Alexsto is a brand that blends precision and creativity. 
-           Inspired by the power of design, Alexsto builds identities that are crafted 
-           to last and impossible to ignore. With over a decade of experience, Alexsto 
-           transforms businesses into bold, unforgettable brands.
+          Alexsto creates niche digital solutions for brands that want more than just good design. 
+          By combining precision, creativity, and strategy, I build distinctive identities that stand 
+          out and leave a lasting impression.
 
           </motion.p>
 
@@ -200,10 +199,11 @@ export default function Page() {
       Services
     </p>
     <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.9] tracking-tight">
-      How can I help you
+      How can I help you?
     </h2>
     <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-white/70">
-      Scroll to explore services. Each card is a module that can scale into a full project system.
+      Turn ideas into clear, impactful design solutions. My work focuses on building strong 
+      identities and digital experiences that feel intentional, consistent, and easy to use.
     </p>
   </div>
 
@@ -800,11 +800,9 @@ function TestimonialsSection({ testimonials }: { testimonials: Testimonial[] }) 
           Testimonials
         </p>
         <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.9] tracking-tight">
-          What clients say
+          What clients say about me
         </h2>
-        <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-white/70">
-          Scroll to move horizontally.
-        </p>
+
       </div>
 
       <div className="mt-12">
@@ -957,21 +955,25 @@ function ServicesSlider() {
         text: "Logo systems, typography, color, and guidelines—built for consistency across every touchpoint.",
         icon: <IconBrand />,
       },
+      
       {
         title: "Print & Packaging",
         text: "Shelf-ready packaging, print collateral, and production-friendly layouts with strong hierarchy.",
         icon: <IconPrint />,
       },
+      
       {
-        title: "UI / UX Design",
-        text: "User-first interfaces, flows, and components that scale—clean, modern, and conversion-aware.",
-        icon: <IconUI />,
-      },
-      {
-        title: "Web Design",
-        text: "High-impact portfolio and brand websites—crafted layouts, strong story, and modern execution.",
+        title: "Social Media Design",
+        text: "Engaging social media visuals that strengthen brand presence and communication across platforms.",
         icon: <IconWeb />,
       },
+      
+      {
+        title: "UI & Web Design",
+        text: "Modern user interfaces and websites that combine visual clarity with seamless user experience.",
+        icon: <IconUI />,
+      },
+    
     ],
     []
   );
@@ -1076,7 +1078,7 @@ function ServicesSlider() {
         </div>
 
         <p className="mt-4 text-center text-xs text-white/55">
-          Scroll to change service
+          Explore my core services above.
         </p>
       </div>
     </div>
@@ -1104,7 +1106,7 @@ function ClientLogosSection({
           Brands I’ve worked with
         </h2>
         <p className="mx-auto mt-5 max-w-2xl text-sm sm:text-base text-white/70">
-          A selection of companies and studios I’ve collaborated with.
+          A selection of brands I’ve collaborated with.
         </p>
       </div>
 
@@ -1146,17 +1148,16 @@ function ContactSection() {
             Contact
           </p>
           <h2 className="mt-4 font-heading text-5xl sm:text-6xl leading-[0.9] tracking-tight">
-            Let’s work together
+            Let’s work together.
           </h2>
           <p className="mt-6 text-base sm:text-lg text-white/70">
-            Send a short message with your goals and timeline. I’ll respond with
-            next steps and a clear plan.
+            Send a short message outlining your project goals and timeline. I’ll review the details and respond with a clear plan and next steps.
           </p>
 
           <div className="mt-8 inline-flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
             <span className="h-2 w-2 rounded-full bg-brand-red" />
             <p className="text-sm text-white/70">
-              Typically replies within 24–48 hours
+              Replies within 24–48 hours
             </p>
           </div>
         </div>

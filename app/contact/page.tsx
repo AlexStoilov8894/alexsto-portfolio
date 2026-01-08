@@ -17,8 +17,7 @@ export default function ContactPage() {
             Let’s work together.
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-white/70">
-            Send a short message with your goals and timeline. I’ll reply with
-            next steps and a clear plan.
+            Send a short message outlining your project goals and timeline. I’ll review the details and respond with a clear plan and next steps.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">

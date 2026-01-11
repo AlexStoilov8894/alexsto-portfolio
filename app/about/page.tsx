@@ -98,23 +98,23 @@ I help brands define who they are and how they’re remembered, through focused 
             <ol className="grid gap-3">
               <ProcessStep
                 n="01"
-                title="Brand Identities"
-                desc="Positioning, references, constraints, objectives."
+                title="Brand Identity"
+                desc="Logo systems, typography, color, and guidelines—built for consistency across every touchpoint."
               />
               <ProcessStep
                 n="02"
                 title="Packaging"
-                desc="Concept routes, visual language, and tone."
+                desc="Shelf-ready packaging, print collateral, and production-friendly layouts with strong hierarchy."
               />
               <ProcessStep
                 n="03"
                 title="Social Media Visuals"
-                desc="Logo, typography, color, assets, and rules."
+                desc="Engaging social media visuals that strengthen brand presence and communication across platforms."
               />
               <ProcessStep
                 n="04"
                 title="Ui & Web Design"
-                desc="Packaging, web, social, motion, and rollout."
+                desc="Modern user interfaces and websites that combine visual clarity with seamless user experience."
               />
             </ol>
             </div>
@@ -130,7 +130,7 @@ I help brands define who they are and how they’re remembered, through focused 
               Mission
             </p>
             <h3 className="mt-4 font-heading text-4xl sm:text-5xl leading-[0.95] tracking-tight">
-              Designed to mean something.
+              Branding that means something.
             </h3>
             <p className="mt-6 text-white/70 text-base sm:text-lg">
               My mission is to help brands communicate clearly and confidently through strong visual systems.

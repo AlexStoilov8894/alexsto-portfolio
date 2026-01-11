@@ -68,7 +68,7 @@ export const projects: Project[] = [
   {
     slug: "gavrailovstudio",
     title: "Gavrailov Studio",
-    subtitle: "rand Identity",
+    subtitle: "Brand Identity",
     description:
       "As the company expanded its portfolio and services, strong visual identity designed to position Gavrailov Studio as a confident and versatile marketing studio.",
     year: "2023",

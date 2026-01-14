@@ -82,7 +82,7 @@ export default function TopNav() {
     <FaInstagram />
   </SocialIcon>
 
-  <SocialIcon href="https://dribbble.com/alexsto.digital" label="Dribbble">
+  <SocialIcon href="https://dribbble.com/alexsto-digital" label="Dribbble">
     <FaDribbble />
   </SocialIcon>
 
